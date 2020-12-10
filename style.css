@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background: linear-gradient( #f72aa5 10% ,  #4d4dff 20% ,  #ffff4d 50% , #4dff4d 70% , #ff3333 90% );
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+}
+
+#m1 {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #03fca1;
+    border-radius: 150px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+}
+
+#welcome {
+    font-size: 45px;
+    font-family: 'Piazzolla', serif;
+    color: #d4fa00;
+    padding-top: 100px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+}
+
+h2 {
+    font-size: 34px;
+    font-family: 'Piazzolla', serif;
+    color: #d4fa00;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+}
+
+p {
+    font-family: 'Piazzolla', serif;
+    color:black;
+    font-size: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+}
+
+h1 {
+    color: #d4fa00;
+    font-family: 'Piazzolla', serif;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    background: linear-gradient( #f72aa5 10% ,  #4d4dff 20% ,  #ffff4d 50% , #4dff4d 70% , #ff3333 90% );
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    left: 190px;
+    z-index: 10;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+    color:black;
+}
+
+h3 {
+    color: #d4fa00;
+    font-family: 'Piazzolla', serif;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+}
+
+.link {
+    float: left;
+    padding: 15px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Piazzolla', serif;
+    color:#99ff33;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 95%), 0 6px 20px 0 rgb(0 0 0 / 76%);
+}
+.carousel .item{
+    text-align:center;
+}
+.carousel .item img:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(0.5); 
+}
+.carousel .item a {
+    text-align:center;  
+    margin:0 auto;
+    width:90%;
+    display:inline-block;
+    
+}
+.menu li:hover{
+    background:white;
+    color:white;
+}
